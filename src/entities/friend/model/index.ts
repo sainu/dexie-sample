@@ -1,2 +1,2 @@
-export type { CreateFriend } from './type';
-export { createFriend } from './db'
+export type { Friend, CreateFriend } from './type';
+export { createFriend, getAllFriends } from './db'

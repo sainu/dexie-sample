@@ -1,2 +1,3 @@
-export type { CreateFriend } from './model'
-export { createFriend } from './model'
+export type { Friend, CreateFriend } from './model'
+export { createFriend, getAllFriends } from './model'
+export { FriendList } from './ui'

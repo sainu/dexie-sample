@@ -10,3 +10,7 @@ export const createFriend = async (item: CreateFriend) => {
   console.log('Create a friend', friend)
   return await db.friends.add(friend)
 }
+
+export const getAllFriends = () => {
+  return db.friends.toArray();
+}
